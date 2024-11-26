@@ -205,7 +205,6 @@ mcgApp.controller('ColorGeneratorCtrl',
 
 		// Function to assign watchers to all bases
 		$scope.calcPalette = function (key) {
-			console.debug("calcPalete");
 			$scope.palettes[key].orig = $scope.computeColors($scope.palettes[key].base);
 			$scope.palettes[key].colors = $scope.palettes[key].orig;
 		};

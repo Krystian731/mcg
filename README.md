@@ -69,3 +69,11 @@ Should you encounter a bug/problem or have a question about the tool please repo
 * [tabuckner](https://github.com/tabuckner) - Slight variation in 'Constantin' focusing on the A100 - A700 values.
 * [vstollen](https://github.com/vstollen) - Added generators necessary to support Flutter 
 * [berryp](https://github.com/berryp) - Bugfixes on Flutter support
+
+# How to Run
+1) Install bower via npm `npm install -g bower`
+2) Install http server  `npm install -g http-server`
+3) Navigate to project folder and download dependencies with `bower install`
+4) Run server with `http-server` command
+
+* You need to refresh page on every code change to make them having an effect!
